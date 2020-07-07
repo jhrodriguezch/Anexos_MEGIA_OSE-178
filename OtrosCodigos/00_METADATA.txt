@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------
+#                       META DATA
+# ---------------------------------------------------------------
+Los archivos que componen la carpeta Otros códigos se muestra a 
+continuación:
+
+1. 1DTo2D
+	Objetivo: Extraer los resultados del modelo regional 1D en los 
+	puntos que este se cruza con el 2D.
+
+	Modo de uso:
+		1. Ubique los códigos en la carpeta "CODE" del modelo ejecutado
+		2. Cambie los directorios dentro del código
+		3. Ejecute el código
+	
+	Resultados: Los resultados se presentaran en la carpeta "RESULTS" y se
+		llaman "Q_2d_ini.csv", "H_2d_fin.csv" y "strickler.csv" Representando,
+		El caudal al inicio de la región de modelación 2D, las alturas de 
+		modelación al final de la región 2D y los numeros de strickler dentro
+		de la region 2D, respectivamente.
+
+2. GIS
+	Objetivo: Generar los archivos raster qeu representan los espejos de agua
+	de las cienagas directamente conectadas.
+
+	Modeo de uso:
+		1. Ubique los códigos en la carpeta "CODE" del modelo ejecutado
+		2. Cambie los directorios dentro del código
+		3. Ejecute el código
+
+	Resultados: Los resultados se presentan en la carpeta "RESULTS" dentro de
+		la cual debe existir otra carpeta llamada "GIS". En esta, despues de 
+		ejecutar el código, apareceran los RASTER de cada ciénaga para cada día
+		de modelación. 
+
+3. NVL2LOI
+	Objetivo: Convertir series de tiempo de niveles a archivos input de mascaret
+
+	Modeo de uso:
+		1) Revisar: https://github.com/jhrodriguezch/NVL2LOI
+		2) Cambiar los los datos al igual que lo mostrado como ejemplo
+		3) Ejecutar el código
+
+	Resultados: Archivos .loi que puede leer mascaret.

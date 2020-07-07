@@ -1,0 +1,12 @@
+ID,ESTACION,CODIGO,ABSCISA,ID_pnt_atn,Dist_geo_km_T_Est,Abz_geo,Abz_real,FILE,VARIABLE
+1,puerto berrio,23097030,0,0,0,0,0,Obs_n_puertoberrio.csv,
+2,penas blancas,23167010,89229,163,,,,Obs_penasblancas.csv,Q
+3,barrancabermeja,23157030,103793,188,"0,338337","108,7160544",109054.3914,Obs_n_barrancabermeja.csv,
+4,puerto wilches,23187010,138605,230,"3,160481","138,7908248",141951.3058,Obs_n_puertowilches.csv,
+5,san pablo rio magdalena,23207040,155506,254,"0,254814","158,3324289",158587.2429,Obs_n_sanpabloriomagdalena.csv,
+6,sitio nuevo,23187280,196446,294,0,"199,829265",199829.265,Obs_n_sitionuevo.csv,
+7,badillo,23187120,220334,313,"0,266969","223,8240425",224091.0115,Obs_n_badillo.csv,
+8,el contento,23217030,257820,355,"0,134604","261,991706",262126.31,Obs_n_elcontento.csv,
+9,la gloria,23217060,304186,412,"1,283811","308,8237347",310107.5457,Obs_n_lagloria.csv,
+10,regidor,25027410,317423,419,,,,Obs_regidor.csv,Q
+11,penoncito,25027330,362000,471,0,362000,362000,Obs_n_penonsito.csv,
